@@ -1,3 +1,10 @@
+# Notez
+Currently Under Maintenance.. If you really need this, plz download the original repo.
+```bash
+git clone https://github.com/AstroJr0/matha-lib/
+```
+
+
 # 🚀 matha — Math All Utilities  
 ### *One library to rule them all. Others may try. They will fail.*
 
