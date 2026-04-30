@@ -96,6 +96,7 @@ Just use this instead!
 
 ```bash
 pip install matha-lib
+# Under Maintenance 
 ```
 ---
 ## 📜 License
@@ -105,6 +106,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Documentation
 Sorry. Im too lazyy to write the whole documentation in this MD file.
 what? you can't use it properly? 
-Then it's okay! Just go to your desired function's file,
-I have documented everything there! :)
+Then it's okay! Just hover over the function, I have documented everything there! :)
 
