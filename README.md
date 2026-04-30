@@ -1,6 +1,6 @@
 # 📒Notez
 Currently Under Maintenance 🛠️..
-If you really need this, plz download the original repo.
+If you really need this, plz download the original repo. or use this instead ↓
 ```bash
 git clone https://github.com/AstroJr0/matha-lib/
 ```
