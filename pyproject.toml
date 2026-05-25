@@ -26,9 +26,8 @@ dependencies = [
 ]
 
 [tool.setuptools]
-# Force setuptools to only package the 'matha' code folder
 packages = ["matha"]
 
 [project.urls]
-"Homepage" = "https://github.com/uvz0/matha-lib"
-"Bug Tracker" = "https://github.com/uvz0/matha-lib/issues"
+"Homepage" = "https://github.com/AstroJr0/matha-lib"
+"Bug Tracker" = "https://github.com/AstroJr0/matha-lib/issues"
