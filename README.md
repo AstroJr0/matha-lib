@@ -1,5 +1,5 @@
 # 📒Notez
-Currently Under Maintenance 🛠️..
+Currently Under Maintenance 🛠️.. Building it as a C Extention for Blazing Fast Performance 💀🥀👍🏻
 If you really need this, plz download the original repo. or use this instead ↓
 ```bash
 git clone https://github.com/AstroJr0/matha-lib/
