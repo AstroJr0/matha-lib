@@ -34,4 +34,4 @@ pip install matha-lib
 ```
 
 ## Licensing 
-Well yall you know what? its all yours! you can sell, modify, distribute my work.. no permission from me is needed, neither any credits i cant guarantee a warentee though... 👍🏻 🕊️ 
+It was `0BSD` before but some guy used soem clanker and emailed me through that clanker that he wanted to use it for his AI operating system or something. When i entered his project's it showed "too many redirects" wow mashallah! i aint letting some clanker use my project!
