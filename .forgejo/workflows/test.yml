@@ -1,0 +1,24 @@
+name: test the pkg
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install numpy setuptools wheel pytest scipy matplotlib
+      - run: pip install --no-build-isolation -e .
+      - run: pytest -q
+        env:
+          MPLBACKEND: Agg
