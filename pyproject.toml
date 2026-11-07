@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "numpy>=1.26.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "matha-lib"
+version = "2.0.0"
+authors = [
+  { name="AstroJr0" },
+]
+description = "A universal math library for Python: Math All Utilities."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "0BSD" }
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy>=1.26.0",
+    "scipy>=1.11.0",
+    "matplotlib>=3.8.0",
+]
+
+[tool.setuptools]
+packages = ["matha"]
+
+[project.urls]
+"Homepage" = "https://github.com/AstroJr0/matha-lib"
+"Bug Tracker" = "https://github.com/AstroJr0/matha-lib/issues"
